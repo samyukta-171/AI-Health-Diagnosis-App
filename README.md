@@ -1,16 +1,44 @@
-# React + Vite
+AI Health Diagnosis System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered web application designed to assist users in predicting and understanding potential health conditions. This project combines machine learning, Flask, React, and OpenAI API to deliver accurate predictions and intelligent diagnostic insights.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+AI-Driven Health Prediction:
+Utilizes trained machine-learning models to analyze user symptoms and provide probable health condition predictions.
 
-## React Compiler
+OpenAI-Powered Insights:
+Integrated OpenAI API to generate human-like diagnostic explanations, recommendations, and reasoning to enhance clarity and accuracy.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Full-Stack Web Application:
+Developed a responsive React frontend connected to a scalable Python (Flask) backend, ensuring smooth and real-time user interaction.
 
-## Expanding the ESLint configuration
+User-Friendly Interface:
+Allows users to input symptoms easily and instantly receive predictions and AI-generated insights.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+
+Frontend: React, HTML, CSS, JavaScript
+
+Backend: Python, Flask
+
+AI/ML: scikit-learn, Pandas, NumPy
+
+AI Integration: OpenAI API
+
+Others: REST APIs, JSON, Axios
+
+📌 Project Highlights
+
+End-to-end implementation of an AI health diagnosis pipeline.
+
+Combined classical ML predictions with advanced LLM-based explanations.
+
+Built with clean UI/UX and modular backend architecture.
+
+Designed for scalability, accuracy, and real-world usability.
+
+▶️ How to Run
+backend - python app.py
+frontend - npm install
+         - npm run dev
