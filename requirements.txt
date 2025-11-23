@@ -1,0 +1,9 @@
+Flask
+Flask-Cors
+Flask-SQLAlchemy
+Flask-JWT-Extended
+passlib
+python-dotenv
+pymysql
+werkzeug
+openai
